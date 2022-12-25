@@ -1,0 +1,120 @@
+﻿{
+  "Routes": [
+    // CleanArchitecture 
+    {
+      "UpstreamPathTemplate": "/api/Drugstore",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "webapi",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Drugstore"
+    },
+    {
+      "UpstreamPathTemplate": "/api/Drugstore/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "webapi",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Drugstore/{id}"
+    },
+    // NLayer
+    {
+      "UpstreamPathTemplate": "/api/Department",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nlayerapp",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Department",
+      "Key": "Departments"
+    },
+    {
+      "UpstreamPathTemplate": "/api/Department/{departmentId}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nlayerapp",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Department/{departmentId}"
+    },
+    {
+      "UpstreamPathTemplate": "/api/Doctor",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nlayerapp",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Doctor",
+      "Key": "Doctors"
+    },
+    {
+      "UpstreamPathTemplate": "/api/Doctor/{doctorId}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nlayerapp",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Doctor/{doctorId}"
+    },
+    {
+      "UpstreamPathTemplate": "/api/Patient",
+      "UpstreamHttpMethod": [ "GET", "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nlayerapp",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Patient",
+      "Key": "Patients"
+    },
+    {
+      "UpstreamPathTemplate": "/api/Patient/{patientId}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "nlayerapp",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Patient/{patientId}"
+    }
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "Departments",
+        "Doctors",
+        "Patients"
+      ],
+      "UpstreamPathTemplate": "/api/Hospital"
+    }
+  ],
+  "GlobalConfiguration"
+  :
+  {
+    "BaseUrl": "http://localhost:8001"
+  }
+}
