@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GrZgQM7BMmqXoNjIOIltZzWtqRuT/MbBlhN3D0gCQBM=",
+  "Source": "NLayerApp.WebAPI",
+  "BasePath": "_content/NLayerApp.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
