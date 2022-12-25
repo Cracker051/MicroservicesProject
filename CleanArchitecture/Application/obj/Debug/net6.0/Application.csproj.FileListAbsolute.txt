@@ -1,0 +1,15 @@
+/Users/lavr1k/Projects/CleanArchitecture/Application/bin/Debug/net6.0/Application.deps.json
+/Users/lavr1k/Projects/CleanArchitecture/Application/bin/Debug/net6.0/Application.dll
+/Users/lavr1k/Projects/CleanArchitecture/Application/bin/Debug/net6.0/Application.pdb
+/Users/lavr1k/Projects/CleanArchitecture/Application/bin/Debug/net6.0/Domain.dll
+/Users/lavr1k/Projects/CleanArchitecture/Application/bin/Debug/net6.0/Domain.pdb
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/Application.AssemblyInfoInputs.cache
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/Application.AssemblyInfo.cs
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/Application.csproj.CopyComplete
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/Application.dll
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/refint/Application.dll
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/Application.pdb
+/Users/lavr1k/Projects/CleanArchitecture/Application/obj/Debug/net6.0/ref/Application.dll
