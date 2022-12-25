@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerApp.WebAPI", "..\NLayerApp\NLayerApp.WebAPI\NLayerApp.WebAPI.csproj", "{0DE29E25-CE12-4C9D-9E19-BA1D7793433D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "..\CleanArchitecture\WebAPI\WebAPI.csproj", "{775D61B6-2D38-4701-BB18-53B9914332F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{391BAB6B-DBBD-479C-8941-148421D46B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{C911A238-06EB-4C04-9530-EB7EEC8F8F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{CFCAF205-F605-4E18-87A8-03B266FFF68A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{79A9B6CA-8399-45BC-BD2A-8689D86C6125}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{9217954F-B424-48A8-8796-A9F6FF47D783}"
+	ProjectSection(SolutionItems) = preProject
+		webapi-deployment.yaml = webapi-deployment.yaml
+		webapi-service.yaml = webapi-service.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DE29E25-CE12-4C9D-9E19-BA1D7793433D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE29E25-CE12-4C9D-9E19-BA1D7793433D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE29E25-CE12-4C9D-9E19-BA1D7793433D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE29E25-CE12-4C9D-9E19-BA1D7793433D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{775D61B6-2D38-4701-BB18-53B9914332F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{775D61B6-2D38-4701-BB18-53B9914332F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{775D61B6-2D38-4701-BB18-53B9914332F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{775D61B6-2D38-4701-BB18-53B9914332F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCAF205-F605-4E18-87A8-03B266FFF68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCAF205-F605-4E18-87A8-03B266FFF68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCAF205-F605-4E18-87A8-03B266FFF68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCAF205-F605-4E18-87A8-03B266FFF68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A9B6CA-8399-45BC-BD2A-8689D86C6125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A9B6CA-8399-45BC-BD2A-8689D86C6125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A9B6CA-8399-45BC-BD2A-8689D86C6125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A9B6CA-8399-45BC-BD2A-8689D86C6125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {273DA837-C974-4A42-93E9-B53A165B9F5E}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFCAF205-F605-4E18-87A8-03B266FFF68A} = {C911A238-06EB-4C04-9530-EB7EEC8F8F60}
+	EndGlobalSection
+EndGlobal
