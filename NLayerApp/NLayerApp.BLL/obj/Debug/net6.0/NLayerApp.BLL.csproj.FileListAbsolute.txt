@@ -1,0 +1,15 @@
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/bin/Debug/net6.0/NLayerApp.BLL.deps.json
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/bin/Debug/net6.0/NLayerApp.BLL.dll
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/bin/Debug/net6.0/NLayerApp.BLL.pdb
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/bin/Debug/net6.0/NLayerApp.DAL.dll
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/bin/Debug/net6.0/NLayerApp.DAL.pdb
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/NLayerApp.BLL.csproj.AssemblyReference.cache
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/NLayerApp.BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/NLayerApp.BLL.AssemblyInfoInputs.cache
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/NLayerApp.BLL.AssemblyInfo.cs
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/NLayerApp.BLL.csproj.CoreCompileInputs.cache
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/NLayerApp.BLL.csproj.CopyComplete
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/NLayerApp.BLL.dll
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/refint/NLayerApp.BLL.dll
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/NLayerApp.BLL.pdb
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.BLL/obj/Debug/net6.0/ref/NLayerApp.BLL.dll

@@ -1,0 +1,14 @@
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/bin/Debug/net6.0/NLayerApp.DAL.deps.json
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/bin/Debug/net6.0/NLayerApp.DAL.runtimeconfig.json
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/bin/Debug/net6.0/NLayerApp.DAL.dll
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/bin/Debug/net6.0/NLayerApp.DAL.pdb
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/NLayerApp.DAL.csproj.AssemblyReference.cache
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/NLayerApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/NLayerApp.DAL.AssemblyInfoInputs.cache
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/NLayerApp.DAL.AssemblyInfo.cs
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/NLayerApp.DAL.csproj.CoreCompileInputs.cache
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/NLayerApp.DAL.dll
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/refint/NLayerApp.DAL.dll
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/NLayerApp.DAL.pdb
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/NLayerApp.DAL.genruntimeconfig.cache
+/Users/lavr1k/Projects/NLayerApp/NLayerApp.DAL/obj/Debug/net6.0/ref/NLayerApp.DAL.dll
