@@ -1,0 +1,18 @@
+name: dockercompose7368947972543748235
+services:
+  nlayerapp.webapi:
+    build:
+      context: /Users/lavr1k/Projects/NLayerApp
+      dockerfile: NLayerApp.WebAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: nlayerapp
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose7368947972543748235_default
